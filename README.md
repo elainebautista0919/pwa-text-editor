@@ -23,8 +23,8 @@
 
   For repo clone: <br>
   (1) Open terminal after clone <br>
-  (2) `npm i` to install NPM package manager <br>
-  (3) run command `npm run start:dev` then `npm run start` <br>
+  (2) `npm install` to install NPM package manager <br>
+  (3) run command `npm run build` then `npm start` <br>
   (4) go to http://localhost:3000/ <br>
 
   ## Usage
