@@ -1,5 +1,5 @@
 {
-  "name": "J.A.T.E",
+  "name":"JATE",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,7 +8,7 @@
     "start": "npm run build && cd server && node server.js",
     "server": "cd server nodemon server.js --ignore client",
     "build": "cd client && npm run build",
-    "install": "cd server && npm i && cd ../client && npm i",
+    "install": "cd client && npm install",
     "client": "cd client && npm start"
   },
   "keywords": [],
@@ -16,9 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "idb": "^7.1.1",
-    "if-env": "^1.0.4",
-    "webpack": "^5.75.0"
+    "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
