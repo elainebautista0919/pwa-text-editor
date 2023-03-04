@@ -1,5 +1,5 @@
 {
-  "name":"JATE",
+  "name": "JATE",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -24,6 +24,8 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "webpack": "^5.75.0",
+    "webpack-dev-server": "^4.11.1"
   }
 }
