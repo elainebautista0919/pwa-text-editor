@@ -20,7 +20,7 @@ export const putDb = async (content) => {
   const request = storeVar.put({ id: 1, value: content });
 
   const result = await request;
-  console.log('Data saved to database', result.value);
+  console.log('Entry saved to database', result.value);
 };
 
 // TODO: Add logic for a method that gets all the content from the database
@@ -30,8 +30,8 @@ export const getDb = async () => {
   const request = storeVar.get(1);
   const result = await request;
   result
-    ? console.log('Data retrieved from the database', result.value)
-    : console.log('Data not found in the database');
+    ? console.log('Entry retrieved from the database', result.value)
+    : console.log('Entry not found in the database');
 };
 
 initdb();
