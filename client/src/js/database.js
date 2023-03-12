@@ -36,9 +36,9 @@ export const putDb = async (content) => {
 
 export const getAllDb = async () => {
   const txtEditorDB = await openDB('jate', 1);
-  const tx = txtEditorDB.transaction('jate', 'readonly');
-  const store = tx.objectStore('jate');
-  const request = store.getAll();
+  const transVar = txtEditorDB.transaction('jate', 'readonly');
+  const storeVar = transVar.objectStore('jate');
+  const request = storeVar.getAll();
   const result = await request;
   console.log('result.value', result);
   return result;
